@@ -1,0 +1,669 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+/* font-family: 'Noto Sans KR', sans-serif; */
+/* 노토산스 */
+
+
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 나눔 스퀘어 라운드 (로고 영어글씨체) */
+
+
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 여기어때 영어 글씨체 */
+
+.nanumsquare {
+    /* font-family: 'NanumSquare', sans-serif !important; */
+}
+
+/* 나눔스퀘어 */
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+body {
+    color: #e0e6f1;
+    background-color: #262e42;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+h2 {
+    /* font-weight: 500; */
+    font-size: 20px;
+    line-height: 18px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #ededed;
+    font-family: 'yg-jalnan';
+}
+
+header {
+    width: 100%;
+    height: 200px;
+}
+
+header .h_top {
+    border-top: 3px solid #00031c;
+}
+
+header .h_top ul {
+    float: right;
+}
+
+header .h_top ul li {
+    float: left;
+    font-size: 14px;
+    margin-top: 10px;
+    border-right: 1px solid #888;
+    padding: 0 15px;
+}
+
+header .h_top ul li:nth-child(4) {
+    padding-right: 0;
+    border: 0;
+}
+
+header .h_botttom {
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 8px;
+    font-family: 'yg-jalnan';
+    font-size: 30px;
+    letter-spacing: -1px;
+}
+
+header .h_botttom h1 {
+    color: #fff;
+}
+
+header .h_botttom img {
+    width: 50px;
+    float: left;
+}
+
+header .h_botttom h1 {
+    width: 300px;
+    margin-left: 10px;
+    float: left;
+    margin-bottom: 20px;
+}
+header .h_botttom div{
+    margin-top: 20px;
+}
+header .h_botttom .search{
+    width: 154px;
+    float:right; 
+}
+header .h_botttom .search input{
+    border: 0;
+    background: transparent;
+    outline: 0;
+    font-size: 15px;
+    width: 150px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+header .h_botttom .button{
+    width: 20px;
+    float:right;
+    background: transparent;
+    margin-left: 5px;
+}
+header .h_botttom .button button{
+    background: transparent;
+    /* margin-left: 5px; */
+    font-size: 20px;
+    color: #fff;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+}
+header .h_menu {
+    width: 100%;
+    height: 50px;
+    background-color: #00031c;
+    color: #fff;
+}
+
+header .h_menu ul {
+    margin-left: 70px;
+}
+
+header .h_menu ul li {
+    float: left;
+    font-size: 16px;
+    margin-left: 80px;
+    line-height: 50px;
+    font-weight: 500;
+}
+header .h_menu ul li:hover a{
+    color: #8b92cc;
+}
+
+header .h_menu ul li:nth-child(1) {
+    margin-left: 0;
+}
+
+header .h_menu ul li a {
+    display: block;
+}
+
+
+/* 최신 앨범 */
+
+
+.latest_music {
+    width: 100%;
+    height: 430px;
+    box-sizing: border-box;
+    background-color: #4f576d;
+    margin-bottom: 80px;
+}
+
+.latest_music h2 {
+    font-size: 20px;
+    line-height: 18px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.latest_music ul {}
+
+.latest_music ul li {
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    position: relative;
+
+}
+
+.latest_music ul li:nth-child(1) {
+    margin-left: 15px;
+
+}
+
+.latest_music ul li:nth-child(6) {
+    margin-left: 15px;
+
+}
+
+.latest_music ul li .txt_box {
+    display: none;
+}
+
+.latest_music ul li:hover .txt_box {
+    width: 173px;
+    height: 173px;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.latest_music ul li:hover .txt_box p {
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 10%;
+}
+
+.latest_music ul li:hover .txt_box em {
+    width: 70%;
+    border-top: 1px solid #c7c7c7;
+    padding-top: 20px;
+    display: block;
+    margin : 0 auto;
+}
+
+.latest_music ul li a {
+    display: block;
+}
+.latest_music ul li a:nth-child(2) {
+font-size: 25px;
+margin-top: 20px;
+}
+.latest_music ul li a i:nth-child(2) {
+    margin-left: 10px;
+}
+
+
+.latest_music ul li img {
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.latest_music ul li:hover a img {}
+
+
+/* 추천 앨범 */
+.weekly_album {
+    margin-bottom: 80px;
+}
+
+.weekly_album h2 {
+    font-size: 20px;
+    line-height: 18px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.weekly_album ul {}
+
+.weekly_album ul li {
+    float: left;
+    margin-left: 30px;
+    width: 167px;
+    height: 285px;
+}
+
+.weekly_album ul li:nth-child(1) {
+    margin-left: 0;
+}
+
+.weekly_album ul li a {
+    display: block;
+}
+
+.weekly_album ul li a img {
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 8px 8px 0 0#3b404d;
+    margin-bottom: 10px;
+    transition: all 0.3s;
+}
+.weekly_album ul li:hover a img{
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+.weekly_album ul li p {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.weekly_album ul li span {
+    font-size: 13px;
+}
+
+/* 실시간 차트 */
+
+.chart {
+    height: 400px;
+    margin-bottom: 150px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.chart h2 {
+    font-size: 20px;
+    line-height: 20px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.chart .head {
+    width: 400px;
+    height: 33px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    padding-bottom: 10px;
+}
+
+.chart .chart_k {
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-right: 60px;
+
+}
+
+.chart h2 {
+    float: left;
+}
+
+.chart .head {}
+
+.chart .head span {
+    float: right;
+    padding-top: 20px;
+    font-size: 13px;
+    display: block;
+}
+
+.chart ul {}
+
+.chart ul li {
+    width: 400px;
+    height: 40px;
+    border-bottom: 1px solid #666;
+    font-size: 14px;
+    position: relative;
+}
+
+.chart ul li:hover {
+    background-color: #4f576d;
+    color: #FFF;
+
+}
+
+.chart ul li a {}
+
+.chart ul li a img {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.chart ul li:hover a img {
+    transform: scale(1.1);
+}
+
+.chart ul li a strong {
+    font-size: 18px;
+    font-weight: 700;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-left: 26px;
+    text-align: center;
+}
+/* .chart ul li:hover a strong{
+    color: #7d89fa;
+} */
+.chart ul li:hover a strong {
+    font-size: 22px;
+}
+/* .chart ul li:hover a em{
+    color: #7d89fa;
+}
+.chart ul li:hover a i{
+    color: #7d89fa;
+} */
+.chart ul li:hover a em {
+    font-size: 17px;
+    position: absolute;
+    left: 60px;
+    top: 12px;
+}
+
+.chart ul li:hover a i {
+    font-size: 17px;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+
+.chart ul li a em {
+    font-size: 13px;
+    height: 40px;
+    position: absolute;
+    left: 60px;
+    top: 15px;
+    width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.chart ul li a i {
+    height: 40px;
+    font-size: 13px;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    direction: ltr;
+    text-align: right;
+}
+
+
+.chart .chart_e {
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+.mid_banner {
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+
+/* 이달의 이벤트 */
+
+.event {
+    margin: 0 auto;
+    width: 660px;
+    margin-bottom: 150px;
+    margin-top: 100px;
+    border-top: 1px solid #4f576d;
+
+}
+
+.event h2 {
+    font-size: 20px;
+    line-height: 18px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.event .event_img {
+    width: 660px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #4f576d;
+}
+
+.event .event_img a {
+    margin-left: 20px;
+}
+
+.event .event_img a:nth-child(1) {
+    margin-left: 0;
+}
+.event img{
+    box-shadow:  8px 8px 0 0  rgb(211, 211, 211);
+
+}
+
+/* 추천 영상 */
+
+
+.hot_video {
+    margin-bottom: 150px;
+}
+
+.hot_video ul {}
+
+.hot_video ul li {
+    float: left;
+    width: 228px;
+    height: 170px;
+    margin-left: 16px;
+    overflow: hidden;
+}
+
+.hot_video ul li:nth-child(1) {
+    margin-left: 0;
+}
+
+.hot_video ul li:nth-child(5) {
+    margin: 0;
+}
+
+.hot_video ul li:nth-child(n+5) {
+    margin-top: 20px;
+}
+
+.hot_video ul li a img {}
+
+.hot_video ul li .txt_box {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 228px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.hot_video ul li .txt_box p {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.for_U {
+    margin-bottom: 150px;
+}
+
+.for_U h2 {
+    margin-bottom: 30px;
+    /* border-top: 1px solid #000; */
+    width: 100%;
+    margin-left: 0;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+.for_U p {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.for_U ul {
+    margin-bottom: 20px;
+}
+
+.for_U ul li {
+    float: left;
+    margin-right: 43px;
+    overflow: hidden;
+    box-shadow: 8px 8px 0 0#3b404d;
+    border-radius: 10px;
+
+}
+
+.for_U ul li:last-child {
+    margin-right: 0px;
+}
+
+.for_U ul li a {
+    width: 157px;
+    height: 157px;
+}
+
+.for_U ul li a img {
+    border-radius: 10px;
+    transition: all 0.3s;
+
+}
+.for_U ul li:hover img{
+    transform: scale(1.1);
+}
+
+/* 푸터 */
+
+footer {
+    border-bottom: 3px solid #00031c;
+    height: 220px;
+    font-size: 14px;
+}
+
+footer .f_top {
+    height: 50px;
+}
+
+footer .f_top ul {
+    padding-top: 20px;
+    margin-left: 40px;
+}
+
+footer .f_top ul li {
+    float: left;
+    margin-right: 90px;
+}
+
+footer .f_top ul li:last-child {
+    margin-right: 0px;
+}
+
+footer .f_top ul li a {
+    display: block;
+}
+
+footer .f_bottom {
+    height: 220px;
+    background-color: #00031c;
+
+}
+
+footer .f_bottom .txt_box {
+    padding-top: 30px;
+    width: 500px;
+    float: left;
+}
+
+footer .f_bottom .txt_box p {
+    line-height: 25px;
+}
+
+footer .f_bottom .txt_box p:nth-child(1) {
+    font-family: 'yg-jalnan';
+}
+
+footer .f_bottom .img_box {
+    width: 300px;
+    float: right;
+    padding-top: 150px;
+    text-align: right;
+}
+
+footer .f_bottom .img_box img {
+    width: 30px;
+
+}
+
+
+footer .f_bottom .img_box i {
+    font-family: 'yg-jalnan';
+    color: white;
+    font-size: 15px;
+
+}
